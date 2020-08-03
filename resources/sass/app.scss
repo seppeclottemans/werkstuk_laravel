@@ -1,0 +1,22 @@
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.is-invalid {
+    border: 0.5px solid red;
+}
+
+.multiple-line-truncate{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
